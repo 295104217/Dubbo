@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:18:53 +0800] "GET /demo/hello.do?name=tom HTTP/1.1" 500 13072 http-bio-8082-exec-1 3140
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:22:34 +0800] "GET / HTTP/1.1" 200 52 http-bio-8082-exec-1 421
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:22:34 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8082-exec-2 0
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:22:50 +0800] "GET /demo/hello.do?name=tom HTTP/1.1" 500 13068 http-bio-8082-exec-4 3124
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:26:01 +0800] "GET / HTTP/1.1" 200 52 http-bio-8082-exec-1 125
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:26:01 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8082-exec-2 0
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:26:07 +0800] "GET /demo/hello.do?name=tom HTTP/1.1" 200 11 http-bio-8082-exec-4 391
+0:0:0:0:0:0:0:1 - - [26/Nov/2019:10:26:07 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8082-exec-5 16
